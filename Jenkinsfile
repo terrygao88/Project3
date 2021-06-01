@@ -6,7 +6,7 @@ pipeline {
 	stages {
     	stage("Checkout") {   
         	steps {               	 
-            	git branch: 'main',  url: 'https://github.com/terrygao88/devops-java-spring-demo'          	 
+            	git branch: 'main',  url: 'https://github.com/terrygao88/Project3.git'          	 
            	 
         	}    
     	}
