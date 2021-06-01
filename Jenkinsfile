@@ -21,7 +21,7 @@ pipeline {
             	sh "mvn test"          	 
        	    }
         }
-        stage ('Package') {
+        stage ('Downstream Job') {
                 steps {
                 build job: 'project3'
             }
